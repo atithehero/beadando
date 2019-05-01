@@ -1,0 +1,114 @@
+header{
+	border-radius: 10px;
+	background-color: #1ee0e0;
+	padding: 10px;
+	margin: 10px;
+}
+
+a.sansserif {
+  font-family: Montserrat, sans-serif;
+}
+
+h1{
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	text-align: center;
+}
+
+h3{
+	font-family: ,Times, Verdana, serif;
+	font-size: 20px;
+}
+
+h4{
+	font-family: Times, Verdana,serif;
+	font-size: 20px;
+	text-align: center;
+	background-color: gray;
+}
+
+h5{
+	font-family: Times, Verdana,serif;
+	font-size: 20px;
+	text-align: center;
+	background-color: gray;
+}
+
+header img {
+	margin: 10px 10px 0px 10px;
+
+}
+
+#wrapper{
+	margin: 30px;
+}
+
+
+
+nav{
+	margin: 10px 0px 10px 0px;
+	border-radius: 10px;
+	background-color: #3a3a3a;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 15px 0px;
+
+}
+
+nav ul li {
+
+	padding: 0px;
+	display: inline;
+}
+
+
+nav ul li a.active {
+  background-color: #aabb1f;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+
+}
+
+nav ul a:hover:not(.active) {
+  background-color: #04DE54;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+
+}
+
+nav ul a {
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+
+}
+
+div#content {
+	display: table-cell;
+	width: 100%;
+	border-radius: 10px;
+	background-color: #1ee0e0;
+	padding: 15px;
+}
+
+div#content  img {
+	float: right;
+	width: 20em;
+	height: auto;
+	margin: 0 0 15px 15px;
+	padding: 3px;
+	border: 3px solid blue;
+}
+
+footer {
+	border-radius: 10px;
+	margin: 10px;
+	padding: 5px 20px;
+	background-color: #CC99FF;
+}
